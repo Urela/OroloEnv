@@ -1,7 +1,7 @@
-# OroloEnv
 <p align="center">
   <img src="paper-boat.png" width="350"/> 
 </p>
+# OroloEnv
 OroloEnv is a reaserch project developed to test some ideas I had for a Reinforcement Learning environement suite. **Simulators that are constrained by moore's law**!
 If you add more CPU cores to your simulator and your training time doesn't improve (drastically) then you are doing something right. Secondly, the approach of 'using' JAX
 to achieve this, misses the point. JAX is not a magical compiler that makes our code faster, but it is wonderful!
