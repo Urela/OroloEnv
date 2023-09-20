@@ -1,4 +1,7 @@
 # OroloEnv
+<p align="center">
+  <img src="paper-boat.png" width="350"/> 
+</p>
 OroloEnv is a reaserch project developed to test some ideas I had for a Reinforcement Learning environement suite. **Simulators that are constrained by moore's law**!
 If you add more CPU cores to your simulator and your training time doesn't improve (drastically) then you are doing something right. Secondly, the approach of 'using' JAX
 to achieve this, misses the point. JAX is not a magical compiler that makes our code faster, but it is wonderful!
@@ -69,7 +72,10 @@ The below image shows DQN's performance on the game TicTacToe on this system.
 </p>
 
 ## Similar work 
-These great tools have are also trying to create hardware-accelerated simulators/suits but follow different philosophies from us.
+These great tools have are also trying to create hardware-accelerated simulators/suites but follow different philosophies from us.
+
+There is a growing number of researchers working on hardware-accelerated simulators/suites. They follow different philosophies from me but have inspired
+the development of this project, here is a list of related efforts:
 
 * [Jumanji](https://github.com/instadeepai/jumanji): A suite of diverse and challenging RL environments in JAX.
 * [envpool](https://github.com/sail-sg/envpool): Vectorized parallel environment execution engine.
@@ -78,10 +84,8 @@ These great tools have are also trying to create hardware-accelerated simulators
 * [gymnax](https://github.com/RobertTLange/gymnax/blob/main/README.md): AX-based Reinforcement Learning Environment Library
 
 
-### Acknowledgements & Citing `gymnax` ✏️
-
+### Citing
 If you use `oroloEnv` in your research, please cite it as follows:
-
 ```
 @software{urela2022github,
   author = {urela},
@@ -92,3 +96,5 @@ If you use `oroloEnv` in your research, please cite it as follows:
 }
 
 ```
+###
+Thanks to DinosoftLabs for their icon
