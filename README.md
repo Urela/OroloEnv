@@ -87,7 +87,7 @@ the development of this project, here is a list of related efforts:
 ### Citing
 If you use `oroloEnv` in your research, please cite it as follows:
 ```
-@software{urela2022github,
+@software{urela2023github,
   author = {urela},
   title = {{OroloEnv},
   url = {http://github.com/Urela/OroloEnv},
